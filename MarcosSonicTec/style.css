@@ -1,0 +1,383 @@
+body, html{
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+#sonic{
+    max-height: 80px;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+#init{
+    background-color: #03a9f4;
+    background-image: none;
+    font-family: Open Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1em;
+    letter-spacing: 1px;
+    color: white;
+    border-top-width: 2px;
+    border-top-color: #03a9f4;
+    border-top-style: solid;
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    border-right-width: 2px;
+    border-right-color: #03a9f4;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #03a9f4;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 56px;
+    border-bottom-right-radius: 56px;
+    border-left-width: 2px;
+    border-left-color: #03a9f4;
+    border-left-style: solid;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    text-align: center;
+    position: relative;
+    left: -20px;
+}
+#fazlog{
+    background-color: transparent;
+    background-image: none;
+    font-family: Open Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1em;
+    letter-spacing: 1px;
+    color: white;
+    border-top-width: 2px;
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    border-right-width: 2px;
+    border-right-color: white;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 56px;
+    border-bottom-right-radius: 56px;
+    border-left-width: 2px;
+    border-left-color: white;
+    border-left-style: solid;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    text-align: center;
+}
+.button{
+    cursor: pointer;
+    text-decoration: none;
+}
+#buttons{
+    position: relative;
+    top: -20px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#inittel{
+    width: 1200px;
+    margin-top: -100px;
+    margin-bottom: 0;
+    margin-left: 100px;
+    margin-right: 0;
+    text-align: center;
+    height: 200px;
+    min-height: unset;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-left-width: 0px;
+    border-left-style: solid;
+}
+#clicin{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+    top: -20px;
+}
+#title{
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3.375em;
+    line-height: 0.80;
+}
+#intron{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: fixed;
+    left: 100px;
+    top: 20px;
+}
+#titlenam{
+    color: rgb(50, 133, 45);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: Open Sans;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 5px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+#barra{
+    position: fixed;
+    z-index: 20;
+    top: -10px;
+    background-color: #000;
+    width: 100%;
+    height: 120px;
+}
+#cort{
+    color: #FFFFFF;
+    background-color: rgb(255, 255, 255);
+    background-position: 43.93305439330544% 48.84937238493724%;
+    background-size: cover;
+    background-image: url('./img/paisfund.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 245px;
+    position: relative;
+    height: 205px;
+}
+#login{
+    z-index: 10;
+    background-color: transparent;
+    width:100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+#fazlogab{
+    z-index: 10;
+    background-color: transparent;
+    width:100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    display: none;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s ;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.forget label input{
+    margin-right: 3px;
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+#close{
+    display: none;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    left: 320px;
+    top: -95px;
+    cursor: pointer;
+}
+#janelaimite{
+    background-color: #333;
+    width: 100%;
+    height: 2000px;
+    overflow-x: hidden;
+    display: flex;
+}
+#cursopremiere {
+    position: relative;
+    z-index: 1;
+    width: 350px;
+    height: 350px;
+    left: 140px;
+    top: -400px;
+    /*box-shadow: -100px 100px 50px rgba(27, 2, 149); /* Sombra */
+} 
+.premier{
+    display: flex;
+    z-index: 1;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px -10px 100px rgba(27, 2, 149); /* Sombra */
+    border-radius: 50%;
+}
+#descrityon{
+    background-color: #00000000;
+    position: relative;
+    font-size: 30px;
+    left: 60px;
+    width: 400px;
+    height: 1000px;
+    border-top: 20px solid #00000000; /* 20px de largura e cor preta (pode ajustar a cor) */
+}
+#descrityon p{
+    margin-bottom: -20px;
+}
+.vieuprod1{
+    background-color: #03a9f4;
+    background-image: none;
+    font-family: Open Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1em;
+    letter-spacing: 1px;
+    color: white;
+    border-top-width: 2px;
+    border-top-color: #03a9f4;
+    border-top-style: solid;
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    border-right-width: 2px;
+    border-right-color: #03a9f4;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #03a9f4;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 56px;
+    border-bottom-right-radius: 56px;
+    border-left-width: 2px;
+    border-left-color: #03a9f4;
+    border-left-style: solid;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    text-align: center;
+    position: relative;
+    left: -20px;
+    top: 40px;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
